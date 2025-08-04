@@ -25,7 +25,7 @@ Follow [Github's Instruction](https://docs.github.com/en/authentication/connecti
    - ```Name```: Name of the profile.
    - ```Command```:
      - Dropdown: Command
-     - Copy the following to the ```Command```field and replace ```<machine-name>``` with the name of the new machine created in step 1 of [OrbStack](OrbStack)
+     - Copy the following to the ```Command```field and replace ```<machine-name>``` with the name of the new machine created in step 1 of [OrbStack](#OrbStack)
        ```
        zsh -c '[[ "$(/usr/local/bin/orb status 2>/dev/null)" == *"Stopped"* ]] && /usr/local/bin/orb start; ssh -Y <machine-name>.orb.local'
 
