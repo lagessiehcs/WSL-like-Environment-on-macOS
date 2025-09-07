@@ -2,6 +2,7 @@
 A guide to creating a lightweight Linux development environment on macOS as an alternative to WSL.
 
 ## Prerequisites
+The following need to be installed on the mac:
 1. [OrbStack](https://orbstack.dev/)
 2. [iTerm2](https://iterm2.com/)
 3. [XQuartz](https://www.xquartz.org/)
