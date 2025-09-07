@@ -30,7 +30,7 @@ Follow [Github's Instruction](https://docs.github.com/en/authentication/connecti
        zsh -c '[[ "$(/usr/local/bin/orb status 2>/dev/null)" == *"Stopped"* ]] && /usr/local/bin/orb start; ssh -Y <machine-name>.orb.local'
 
        ```
-3. (Optional) Go to the ```Color```tab and change the default background color to ```2c001e```to imitate the color of an Ubuntu terminal.
+3. (Optional) Go to the ```Color```tab and change the default background color to ```2c001e```to recreate the color of an Ubuntu terminal.
 
 ### Start New Ubuntu Session
 To start a new Ubuntu session, simple right click on the iTerm2's terminal, then _New tab_ and choose the configured profile.
