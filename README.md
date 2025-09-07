@@ -13,11 +13,12 @@ Follow [Github's Instruction](https://docs.github.com/en/authentication/connecti
 1. Create a new Ubuntu machine in OrbStack
 2. If the new machine is created before an ssh keypair, or the key pair (e.g. ```id_ed25519``` and ```id_ed25519.pub```) is not found under ```~/.ssh``` of the machine, it should be manually copy from the Mac (under ```~/.ssh```) to the new machine (under ```~/.ssh```).
 3. Copy the file ```setup_ssh.sh``` into the new machine. This file contains the commands for setting up the new machine to enable GUI.
-4. Make the file executable
+4. Open new terminal in the VM by double-clicking on the machine in Orbstack
+5. Make the file executable
    ```
    chmod +x ./setup_ssh.sh
    ```
-5. Run the file
+6. Run the file
    
 ### iTerm2
 1. Open iTerm2's settings &rarr; **Profiles**, click "*" to add new profile.
