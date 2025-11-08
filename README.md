@@ -22,7 +22,7 @@ Follow [Github's Instruction](https://docs.github.com/en/authentication/connecti
 6. Run the file
    
 ### iTerm2
-1. Open iTerm2's settings &rarr; **Profiles**, click "*" to add new profile.
+1. Open iTerm2's settings &rarr; **Profiles**, click "+" to add new profile.
 2. Click on the newly added profile, then go to the ```General``` tab and fill the fields as follows:
    - ```Name```: Name of the profile.
    - ```Command```:
