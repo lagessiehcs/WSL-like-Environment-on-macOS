@@ -1,4 +1,4 @@
-# WSL-like-Environment-on-macOS
+# WSL like Environment with Destop on macOS 
 A guide to creating a lightweight Linux development environment on macOS as an alternative to WSL.
 
 ## Prerequisites
