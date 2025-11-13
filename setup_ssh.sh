@@ -17,7 +17,7 @@ sudo apt install -y openssh-server
 echo "Done"
 
 echo "Installing git..."
-sudo apt install git
+sudo apt install git -y
 echo "Done"
 
 echo "Creating ssh.socket.d directory for custom port configuration..."
