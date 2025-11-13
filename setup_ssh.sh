@@ -16,6 +16,10 @@ sudo apt update
 sudo apt install -y openssh-server
 echo "Done"
 
+echo "Installing git..."
+sudo apt install git
+echo "Done"
+
 echo "Creating ssh.socket.d directory for custom port configuration..."
 sudo mkdir -p /etc/systemd/system/ssh.socket.d/
 echo "Done"
