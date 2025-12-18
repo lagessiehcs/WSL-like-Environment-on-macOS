@@ -61,6 +61,7 @@ esac
 
 echo "Installing xfce4 and tigervnc"
 sudo apt install tigervnc-standalone-server xfce4 dbus-x11 -y
+sudo apt remove xfce4-screensaver
 echo "Done"
 
 echo "Intalling gedit..."
